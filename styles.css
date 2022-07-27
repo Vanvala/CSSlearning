@@ -1,0 +1,62 @@
+h1 {
+    color: rgb(8, 0, 255);
+    font-size: large;
+    width: 100px;;
+    background-color: teal;
+    border: 10px solid black;
+    transform: rotate(0.3turn);
+}
+
+li {
+    list-style-type: square;
+}
+
+li.special,
+span.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color:rebeccapurple;
+}
+
+h1 + p {
+    font-size: 200%;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a {
+    font-weight: bold;
+}
+
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
+
+.just {
+    color:brown;
+}
+
+/* Add diferent body style */
+@media (max-width: 600px) {
+    body {
+    background-color: blue;
+    }
+}
+
+body {
+    background: rgb(6, 216, 62) url() 10px 10px repeat-x fixed;
+}
