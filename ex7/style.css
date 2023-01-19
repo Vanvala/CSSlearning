@@ -1,0 +1,22 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+div {
+    width: 200px;
+    height: 100px;
+    margin:auto;
+    line-height: 65px;
+    font-size: 1.0625rem;
+    /* font-size value is calculated based on the fact that the default html font-size is 16 
+  and we want the font size of the div to be 17, thus the rem value is 17/16 */
+    background-color: red;
+    border: 1px solid #a30000;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 2px 2px 10px black, inset 0.3px 0.3px 1.5px white;
+    text-align: center;
+    
+  }
